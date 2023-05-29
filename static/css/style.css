@@ -1,0 +1,89 @@
+style.css
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #162136;
+    display: flex;
+    flex-direction: column;
+    padding: calc(100vw/1440*100) calc(100vw/1440*75);
+}
+
+.title {
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: calc(100vw/1440*56);
+    margin-bottom: calc(100vw/1440*50);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-child {
+    height: calc(100vw/1440*400);
+    width: calc(100vw/1440*600);
+    border: calc(100vw/1440*4) solid #DDE5E7;
+    border-radius: calc(100vw/1440*30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-item {
+    display: flex;
+    width: calc(100vw/1440*400);
+    justify-content: space-between;
+    line-height: calc(100vw/1440*40);
+    margin-bottom: calc(100vw/1440*40);
+}
+
+.container-item:last-child {
+    margin-bottom: 0;
+}
+
+.container-item__label {
+    font-size: calc(100vw/1440*22);
+    font-weight: 700;
+}
+
+.container-item__input {
+    display: inline-block;
+    width: calc(100vw/1440*150);
+    height: calc(100vw/1440*40);
+    font-family: inherit;
+    font-size: calc(100vw/1440*22);
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: calc(100vw/1440*2) solid #DDE5E7;
+    border-radius: calc(100vw/1440*10);
+}
+
+.form-btn {
+    font-size: calc(100vw/1440*22);
+    font-weight: 700;
+    font-family: inherit;
+    letter-spacing: calc(100vw/1440*2);
+    color: #ffffff;
+    padding: calc(100vw/1440*15) calc(100vw/1440*20);
+    background-color: #00ACEE;
+    border-radius: calc(100vw/1440*25);
+}
+
+.output-title {
+    font-weight: 700;
+    font-size: calc(100vw/1440*32);
+    margin-bottom: calc(100vw/1440*50);
+}
+
+.output-text {
+    font-size: calc(100vw/1440*18);
+    font-weight: 400;
+}
+
+
+
